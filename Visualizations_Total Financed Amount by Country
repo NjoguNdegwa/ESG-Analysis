@@ -1,0 +1,5 @@
+plt.figure(figsize=(8, 5))
+sns.barplot(data=df, x="Country", y="Financed Amount", estimator=sum, ci=None)
+plt.title("Total Financed Amount by Country")
+plt.ylabel("Amount (€)")
+plt.show()
