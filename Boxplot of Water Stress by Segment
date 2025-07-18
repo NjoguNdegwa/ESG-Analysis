@@ -1,0 +1,4 @@
+plt.figure(figsize=(7, 4))
+sns.boxplot(data=df, x="Segment", y="Water Stress")
+plt.title("Water Stress Distribution by Segment")
+plt.show()
