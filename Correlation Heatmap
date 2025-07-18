@@ -1,0 +1,5 @@
+plt.figure(figsize=(10, 6))
+numeric_cols = df.select_dtypes(include='number')
+sns.heatmap(numeric_cols.corr(), annot=True, cmap="coolwarm")
+plt.title("Correlation Matrix")
+plt.show()
