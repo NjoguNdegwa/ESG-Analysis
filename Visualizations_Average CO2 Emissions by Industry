@@ -1,0 +1,6 @@
+plt.figure(figsize=(10, 5))
+sns.barplot(data=df, x="Industry", y="CO2 (tons)", estimator='mean')
+plt.title("Average CO2 Emissions by Industry")
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.show()
