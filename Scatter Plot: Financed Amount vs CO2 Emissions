@@ -1,0 +1,5 @@
+# Scatter Plot: Financed Amount vs CO2 Emissions
+plt.figure(figsize=(7, 5))
+sns.scatterplot(data=df, x="Financed Amount", y="CO2 (tons)", hue="Segment", style="Country", s=100)
+plt.title("Financed Amount vs CO2 Emissions")
+plt.show()
